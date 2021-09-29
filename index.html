@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B2S - Embedding</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+  </head>
+  <body>
+    <h1>✨Embedding with DS20✨</h1>
+    <div>
+      <button id="ExportToPDF">Export PDF</button>
+      <button id="ExportToPowerpoint">Export Powerpoint</button>
+    </div>
+    <div>
+      <input type="number" placeholder="minValue" id="minValue" />
+      <input type="number" placeholder="maxValue" id="maxValue" />
+      <button id="filterButton">Filter The Sales</button>
+    </div>
+    <!-- Place to store our Tableau Dashboard -->
+    <div id="vizContainer"></div>
+
+    <!-- Load the app.js file -->
+    <script src="./app.js"></script>
+  </body>
+</html>
